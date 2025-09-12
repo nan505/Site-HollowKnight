@@ -1,0 +1,123 @@
+/* Informações gerais e Imagem de fundo */
+
+body{
+    background-image: url(https://shared.steamstatic.com/community_assets/images/items/1030300/f54a2bfa3cb71d295faa1cd1ba95b4aac392f245.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+}
+
+/* Centralização de Imagens */
+
+img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Configuração dos botões */
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+/* Centralização dos botões */
+
+#botoesnav{
+    text-align: center;
+}
+
+/* Estilização dos botões */
+
+.botoesnav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    display: inline-block;
+    padding: 12px 64px;
+    margin: 24px;
+    border-radius: 18px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+/* Div de espaçamento */
+
+#padding{
+    padding-top: 92px;
+}
+
+/* Div do fundo preto */
+
+#fundo-preto{
+    background-color: hsla(0, 100%, 0%, 0.6);
+    background-size: cover;
+}
+
+/* Texto Inicial */
+
+#texto-inicio{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+}
+
+/* Screenshots de Silksong */
+
+.silksong-prints{
+    text-align: center;
+}
+
+.prints-silksong{
+    padding-top: 12px;
+    padding-inline: 4px;
+    max-width: 480px;
+    display: inline-block;
+    border-radius: 24px;
+}
+
+/* Descrição de Silksong */
+
+#div-description{
+    width: 1480px;
+    height: 340px;
+    margin: auto;
+}
+
+.description{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+#blue-text{
+    color: rgb(94, 194, 252);
+}
+
+/* Segunda div de espaçamento */
+
+#padding2{
+    padding-bottom: 5px;
+}
+
+/* Rodapé */
+
+#div-copyright{
+    width: 1280px;
+    margin: auto;
+}
+
+#copyright{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 16px;
+}

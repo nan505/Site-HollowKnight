@@ -1,0 +1,117 @@
+/* Informações gerais e Imagem de fundo */
+
+body{
+    background-image: url(https://shared.steamstatic.com/community_assets/images/items/367520/89c60302eaa33a08d7eb97ba14d40bd39b48da5f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+}
+
+/* Centralização de Imagens */
+
+img{
+    display: block;
+    margin: auto;
+}
+
+/* Configuração dos botões */
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+/* Centralização dos botões */
+
+#botoesnav{
+    text-align: center;
+}
+
+/* Estilização dos botões */
+
+.botoesnav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    display: inline-block;
+    padding: 12px 64px;
+    margin: 24px;
+    border-radius: 18px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+/* Botões de compra */
+
+.botoescompra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    display: inline-block;
+    padding: 12px 64px;
+    margin: 4px;
+    border-radius: 18px;
+    border: 3px solid black;
+    color: white;
+    background-color: #5c7e10;  
+}
+
+.botoescompra:visited{
+    color: white;
+}
+
+/* Hover do mouse nos botões */
+
+.botoesnav:hover{
+    cursor: pointer;
+}
+
+/* Estilização da Logo */
+
+.logos{
+    width: auto;
+    height: 333px;
+}
+
+/* Texto Inicial */
+
+.bio-cherry{
+    text-align: center;
+    width: 946px;
+    margin: auto;
+}
+
+.texto-inicio{
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    margin: auto;
+}
+
+#texto-h2{
+    font-style: italic;
+    font-size: 38px;
+    padding-top: 48px;
+}
+
+/* Rodapé */
+
+#div-copyright{
+    width: 1280px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#copyright{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 152px;
+    padding-bottom: 16px;
+}
