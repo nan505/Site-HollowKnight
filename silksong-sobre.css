@@ -46,25 +46,6 @@ a:visited{
     background-color: white;
 }
 
-/* Botões de compra */
-
-.botoescompra{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 26px;
-    display: inline-block;
-    padding: 12px 64px;
-    margin: 4px;
-    border-radius: 18px;
-    border: 3px solid black;
-    color: white;
-    background-color: #5c7e10;  
-}
-
-.botoescompra:visited{
-    color: white;
-}
-
 /* Hover do mouse nos botões */
 
 .botoesnav:hover{
@@ -84,6 +65,7 @@ a:visited{
     text-align: center;
     width: 946px;
     margin: auto;
+    text-shadow: 0px 0px 12px black;
 }
 
 .texto-inicio{
@@ -91,6 +73,7 @@ a:visited{
     text-align: center;
     font-size: 44px;
     margin: auto;
+    text-shadow: 0px 0px 12px black;
 }
 
 #texto-h2{
@@ -114,4 +97,5 @@ a:visited{
     text-align: center;
     padding-top: 152px;
     padding-bottom: 16px;
+    text-shadow: 0px 0px 4px black;
 }
