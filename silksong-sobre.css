@@ -47,12 +47,6 @@ a:visited{
     background-color: white;
 }
 
-/* Hover do mouse nos botões */
-
-.botoesnav:hover{
-    cursor: pointer;
-}
-
 /* Estilização da Logo */
 
 .logos{
